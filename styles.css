@@ -1,0 +1,84 @@
+/* For texts */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Heveltica, sans-serif;
+}
+
+body, table, th, td, p {
+    font: medium Helvetica;
+}
+
+h1 {
+    color: maroon;
+    font-size: 2em;
+    text-decoration: none;
+    background: none;
+}
+
+h2{
+    background-color: dimgrey;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 6px;
+    margin:0
+}
+
+h3, h4, h5, h6, body {
+    color: darkblue;
+    font-size: 1em;
+}
+
+h2 {
+    font: bold;
+}
+
+h3 {
+    text-decoration: overline;
+}
+body {
+    font: Heveltica, sans-serif;
+    background-color: white;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+body em {
+    color: lightgray;
+    font-style: italic;
+    font-weight: 100
+}
+
+.dropcap {
+    color: orange;
+    font-size: 2em;
+}
+
+p {
+    color: ;
+}
+
+p.warning {
+    color: orangered;
+    font-weight: bold;
+    margin: 0
+}
+
+span.warning {
+    color: orchid
+}
+
+.warning.urgent {
+    color:red;
+    font-style: italic;
+}
+
+quote {
+    font: italic 1em Arial;
+    color: aqua;
+}
+
+a:link {color: white; background: black;}
+a:visited {color: blue;background: white}
